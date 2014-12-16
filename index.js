@@ -12,8 +12,10 @@ wt._init(function(error, xpl) {
 	}
         
         setInterval(function(){
-                //wt.send();
-                wt.test();
+                wt.send_os_cpuFree();
+                wt.send_os_cpuUsage();
+                wt.send_os_freememPercentage();
+                wt.send_os_uptime();
         }, 15 * 1000); 
         
 });
