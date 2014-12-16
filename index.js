@@ -12,7 +12,8 @@ wt._init(function(error, xpl) {
 	}
         
         setInterval(function(){
-                wt.send();
+                //wt.send();
+                wt.test();
         }, 15 * 1000); 
         
 });
