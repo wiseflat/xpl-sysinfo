@@ -1,7 +1,7 @@
 var xpllirc = require("./lib/xpl-sysinfo");
 
 var wt = new xpllirc(null, {
-	xplSource: 'bnz-sysinfo.wiseflat'
+	//xplSource: 'bnz-sysinfo.wiseflat'
 });
 
 wt._init(function(error, xpl) {
