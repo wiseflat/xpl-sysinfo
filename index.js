@@ -13,7 +13,7 @@ wt._init(function(error, xpl) {
         
         setInterval(function(){
                 wt.send();
-        }, 30 * 1000); 
+        }, 15 * 1000); 
         
 });
 
