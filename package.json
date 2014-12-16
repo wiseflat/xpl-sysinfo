@@ -1,0 +1,19 @@
+{
+  "name": "xpl-sysinfo",
+  "version": "0.1.0",
+  "description": "Node JS layer to send system info through xPL",
+  "main": "./lib/xpl-sysinfo.js",
+  "dependencies": {
+    "xpl-api": "~1.0.12",,
+    "os-utils": "~0.0.14",
+    "fs": "~0.0.2"
+  },
+  "keywords": [
+    "XPL","nodejs","os-utils"
+  ],
+  "repository": { "type": "git", "url": "https://github.com/wiseflat/xpl-sysinfo.git" },
+  "author": "Mathieu Garcia",
+  "license": "GPL",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/wiseflat/xpl-sysinfo"
+}
