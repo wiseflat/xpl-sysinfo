@@ -1,4 +1,4 @@
-xpl-sysinfo
+xpl-suncalc
 ==========
 
-Node JS layer to send system info through xPL
+
