@@ -1,4 +1,4 @@
-var xplsuncalc = require("./lib/xpl-xplsuncalc");
+var xplsuncalc = require("./lib/xpl-sysinfo");
 
 var wt = new xplsuncalc(null, {
 	//xplSource: 'bnz-sysinfo.wiseflat'
