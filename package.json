@@ -4,7 +4,7 @@
   "description": "Node JS layer to send system info through xPL",
   "main": "./lib/xpl-sysinfo.js",
   "dependencies": {
-    "xpl-api": "Nodejs-XPL/xpl-api",
+    "xpl-api": "git://github.com/Nodejs-XPL/xpl-api.git#process_target",
     "os-utils": "~0.0.14",
     "fs": "~0.0.2"
   },
