@@ -26,18 +26,24 @@ wt._init(function(error, xpl) {
         }, 60 * 1000);
 	
         setInterval(function(){
-                wt.send_platform();
-                wt.send_cpuCount();
-                wt.send_sysUptime();
-                wt.send_processUptime();
-                wt.send_freemem();
-                wt.send_totalmem();
-                wt.send_freememPercentage();
-                wt.send_harddrive();
-                wt.send_allLoadavg();
-                wt.send_cpuFree();
-                wt.send_cpuUsage();
-                //wt.send_getCPUInfo();
+		if(wt.configHash.enable) {
+			wt.send_platform();
+			wt.send_cpuCount();
+			wt.send_sysUptime();
+			wt.send_processUptime();
+			wt.send_freemem();
+			wt.send_totalmem();
+			wt.send_freememPercentage();
+			wt.send_harddrive();
+			wt.send_allLoadavg();
+			wt.send_cpuFree();
+			wt.send_cpuUsage();
+			//wt.send_getCPUInfo();
+		}
         }, 30 * 1000);
+	
+        xpl.on("xpl:sysinfo.config", function(evt) {
+                if(evt.headerName == 'xpl-cmnd') wt.writeConfig(evt);
+        });
 });
 
