@@ -27,18 +27,18 @@ wt._init(function(error, xpl) {
 	
         setInterval(function(){
 		if(wt.configHash.enable) {
-			wt.send_platform();
-			wt.send_cpuCount();
-			wt.send_sysUptime();
-			wt.send_processUptime();
+			//wt.send_platform();
+			//wt.send_cpuCount();
+			//wt.send_sysUptime();
+			//wt.send_processUptime();
+			//wt.send_allLoadavg();
+			//wt.send_getCPUInfo();
 			wt.send_freemem();
 			wt.send_totalmem();
 			wt.send_freememPercentage();
+			wt.send_freecpu();
+			wt.send_totalcpu();
 			wt.send_harddrive();
-			wt.send_allLoadavg();
-			wt.send_cpuFree();
-			wt.send_cpuUsage();
-			//wt.send_getCPUInfo();
 		}
         }, 30 * 1000);
 	
