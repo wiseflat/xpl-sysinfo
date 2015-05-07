@@ -36,8 +36,8 @@ wt._init(function(error, xpl) {
 			wt.send_freemem();
 			wt.send_totalmem();
 			wt.send_freememPercentage();
-			wt.send_freecpu();
-			wt.send_totalcpu();
+			wt.send_cpuFree();
+			wt.send_cpuUsage();
 			wt.send_harddrive();
 		}
         }, 30 * 1000);
