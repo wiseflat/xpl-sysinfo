@@ -33,12 +33,16 @@ wt._init(function(error, xpl) {
 			//wt.send_processUptime();
 			//wt.send_allLoadavg();
 			//wt.send_getCPUInfo();
-			wt.send_freemem();
+			/*wt.send_freemem();
 			wt.send_totalmem();
 			wt.send_freememPercentage();
 			wt.send_cpuFree();
 			wt.send_cpuUsage();
-			wt.send_harddrive();
+			wt.send_harddrive();*/
+			
+			wt.send_memUsage();
+			wt.send_cpuUsage();
+			wt.send_diskUsage();
 		}
         }, 30 * 1000);
 	
