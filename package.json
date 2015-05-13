@@ -1,6 +1,6 @@
 {
   "name": "xpl-sysinfo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Node JS layer to send system info through xPL",
   "main": "./lib/xpl-sysinfo.js",
   "dependencies": {

@@ -1,7 +1,7 @@
 xpl-sysinfo
 ==========
 
-
+Node JS layer to send cpuUsage, memUsage and diskUsage through xPL
 
 192.168.0.1:54876 [xpl-stat/sysinfo.basic: bnz-sysinfo.srv -> * srv/platform/linux]
 192.168.0.1:54876 [xpl-stat/sysinfo.basic: bnz-sysinfo.srv -> * srv/cpuCount/2]
